@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quiz by Neotet</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Добре дошли в <br><span><center>Bell Education</center></span></h1>
+    </div>
+    <a href="#" class="button start-button">
+        <span class="text-button">
+            Start
+        </span>
+        <img src="./images/question_mark.png" class="button-question">
+        <img src="./images/right-mark.png" class="button-right">
+        <img src="./images/wrong-mark.png" class="button-wrong">
+    </a>
+    <!--------------------Info Box---------------->
+    <div id="info-box" class="info-box remove">
+        <div class="info-title"><span>Някои правила на играта!</span></div>
+        <div class="info-list">
+            <div class="info">1. При правилен отговор на въпроса, получавате 1 точка.</div>
+            <div class="info">3. Може да излезете по всяко време от Quiza</div>
+            <div class="info">4. Нека да започнем тогава, успех</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Изход</button>
+            <button class="restar">Продължи</button>
+        </div>
+    </div>
+    <!--------------------Game---------------->
+    <div id="quiz-box" class="quiz-box remove">
+        <header>
+            <div class="title-quiz">Quiz Application</div>
+            <div class="timer">
+                <div class="time-text">Time Left</div>
+                <div class="seconds">20</div>
+                </siv>
+                <div class="timer-line">
+                </div>
+            </div>
+
+        </header>
+        <section>
+            <div id="quiz-text" class="quiz-text">
+            </div>
+            <div id="option-list" class="option-list">
+            </div>
+        </section>
+        <footer>
+            <div id="total-quiz" class="total-quiz">
+
+            </div>
+            <button id="btn-next" class="btn-next">Напред</button>
+        </footer>
+    </div>
+    <!-- Result Box-->
+    <div id="result-box" class="result-box">
+        <div class="icon">
+            <!--<i class="fas fa-crown"></i>-->
+            <i class="fa-solid fa-face-smile-beam"></i>
+        </div>
+        <div class="complete-text">
+            <span>Браво, завършихте Куиза</span>
+            <span class="score-text">
+                <span>Имате<p id="score"></p>верни от <p>5</p>въпроса.</span>
+            </span>
+            <div class="buttons">
+                <button class="restar" id="replay">Започни отново</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
