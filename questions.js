@@ -3,57 +3,134 @@
 let questions = [
     {
         number: 1,
-        question: 'What does HTML stand for?',
-        answear: 'Hyper Text Markup Language',
+        question: 'Какво е Интернет?',
+        answear: 'глобална мрежа, която свързва други мрежи и техните потребители.',
         options: [
-            'Hyper Text Memory Language',
-            'Hyper Text Markup Language',
-            'Hyper Text Memory Location',
-            'Hyper Text Markup Location'
+            'локална мрежа за свързване на два компютъра.',
+            'специализирана програма за търсене на информация.',
+            'глобална мрежа, която свързва други мрежи и техните потребители.',
+            'Нито едно от изброените.'
         ]
     },
     {
         number: 2,
-        question: 'What does CSS stand for?',
-        answear: 'Cascading Style Sheet',
+        question: 'Посочете кое от посочените е интернет браузър и кое – търсеща машина?',
+        answear: 'Google',
         options: [
-            'Cascading Style Sheet',
-            'Cascading Sheet Style',
-            'Computer Style Sheet',
-            'Computer Sheet Style'
+            'Google',
+            'Firefox',
+            'Chrome',
+            'Bing'
         ]
     },
     {
         number: 3,
-        question: 'What does PHP stand for?',
-        answear: 'Hypertext Preprocessor',
+        question: 'Кой е домейнът от първо ниво ',
+        answear: 'com',
         options: [
-            'Hypertext Preporation',
-            'Hypertext Preprocessor',
-            'Hyper Preporation Text',
-            'Preporation Hypertext'
+            'spreadsheets',
+            'docs',
+            'https',
+            'com'
         ]
     },
     {
         number: 4,
-        question: 'What is a correct syntax to output "Hello World" in Java?',
-        answear: 'System.out.printl("Hello world")',
+        question: 'Кое от следните твърдения за търсене в Интернет е невярно?',
+        answear: 'В Интернет можем да търсим само на английски език.',
         options: [
-            'System.out.printl("Hello world")',
-            'Console.log("Hello world")',
-            'echo("Hello World")',
-            'print("Hello world")'
+            'Информацията, която намираме в Интернет, не винаги е достоверна.',
+            'В Интернет можем да търсим само на английски език.',
+            'За да намерим информация в Интернет, трябва да използваме търсеща машина.',
+            'Търсещата машина работи с ключови думи.'
         ]
     },
     {
         number: 5,
-        question: 'What does SQL stand for?',
-        answear: 'Structured Query Language',
+        question: 'Кой домейн от първо ниво обикновено се използва за фирмени уеб сайтове:',
+        answear: '.org',
         options: [
-            'Structured Question Language',
-            'Strong Question Language',
-            'Structured Query Language',
-            'Strong Query Language'
+            '.edu',
+            '.org',
+            '.com',
+            '.firm'
+        ]
+    },
+    {
+        number: 6,
+        question: 'Кое е най-подходящото определение за фалшиви новини?',
+        answear: 'Нито едно от изброените',
+        options: [
+            'Реклами.',
+            'Невярна информация в Интернет.',
+            'Умишлено публикувана и разпространявана невярна информация.',
+            'Нито едно от изброените.'
+        ]
+    },
+    {
+        number: 7,
+        question: 'Посочете вярното твърдение за разширението на файл',
+        answear: 'Разпознава се от програмите, които отварят файла.',
+        options: [
+            'Съдържа минимум 4 символа.',
+            'Разпознава се от програмите, които отварят файла.',
+            'Отделя се от името с тире.',
+            'Може да се напише на кирилица.'
+        ]
+    },
+    {
+        number: 8,
+        question: 'Как се премества файл с клавишна комбинация?',
+        answear: 'Ctrl+X, Ctrl+V',
+        options: [
+            'Ctrl+V, Ctrl+P',
+            'Ctrl+A, Ctrl+V',
+            'Ctrl+C, Ctrl+P',
+            'Ctrl+X, Ctrl+V'
+        ]
+    },
+    {
+        number: 9,
+        question: ' Кои от изгледите във File Explorer показват размерите на файла?',
+        answear: 'Details, Tiles',
+        options: [
+            'Small Icons',
+            'List',
+            'Data',
+            'Details, Tiles'
+        ]
+    },
+    {
+        number: 10,
+        question: 'Кое от изброените е популярен уеб сайт, предлагащ услугата Електронна поща?',
+        answear: 'Yahoo.com',
+        options: [
+            'Yahoo.com',
+            'Focus-news.net',
+            'Paypal.com',
+            'Dropbox.com'
+        ]
+    },
+    {
+        number: 11,
+        question: 'Коя от следните характеристики описва синхронната комуникация?',
+        answear: 'Комуникация в реално време.',
+        options: [
+            'Комуникация чрез електронна поща.',
+            'Комуникация по различно за кореспондентите време.',
+            'Комуникация в реално време.',
+            'Комуникация чрез писма.'
+        ]
+    },
+    {
+        number: 12,
+        question: 'Коя част от адреса за електронна поща се нарича домейн?',
+        answear: 'Комуникация в реално време.',
+        options: [
+            'Частта преди символа @',
+            'Частта след символа @',
+            'Частта след последната точка',
+            'Самият символ @'
         ]
     },
 ]
