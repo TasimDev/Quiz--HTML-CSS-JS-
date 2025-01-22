@@ -124,43 +124,6 @@ function queCounter(index) {
     const numbersOfQuestions = document.querySelector('#total-quiz').innerHTML = numbersOfQuestionstag;
 }
 
-function startTime(time) {
-    counter = setInterval(timer, 1000);
-    function timer() {
-        timeCount.textContent = time;
-        time--;
-
-        if (time < 0) {
-            clearInterval(counter);
-            timeCount.textContent = '0';
-            timeOff.textContent = 'Time Off'
-            let allOptionList = document.querySelector('#option-list').children;
-            let corretAns = questions[questionCount].answear;
-            for (let i = 0; i < allOptionList.length; i++) {
-                if (allOptionList[i].textContent == corretAns) {
-                    allOptionList[i].setAttribute('class', 'option correct');
-                    allOptionList[i].insertAdjacentHTML('beforeend', thickIcon);
-                }
-            }
-            for (let i = 0; i < allOptionList.length; i++) {
-                allOptionList[i].classList.add('disabled');
-            }
-            nextBtn.style.display = 'block';
-        }
-    }
-}
-
-function startTimeLine(time) {
-    counterLine = setInterval(timer, 35);
-    function timer() {
-        time += 1;
-        timeLine.style.width = time + 'px';
-        if (time > 600) {
-            clearInterval(counterLine);
-
-        }
-    }
-}
 
 
 
